@@ -1,0 +1,26 @@
+# === FRONTEND (React / Node) ===
+node_modules/
+dist/
+build/
+.env*
+coverage/
+*.log
+
+# === BACKEND (.NET) ===
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.sqlite
+
+# === TESTS ===
+TestResults/
+*.coverage*
+*.cobertura.xml
+
+# === IDE & OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
